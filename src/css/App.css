@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#root{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.App{
+    width: 800px;
+}
+.post{
+    display: flex;
+    padding: 15px;
+    border: 5px solid teal;
+    margin-top: 15px;
+    background-color: darkgoldenrod;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-delete{
+    background-color: brown;
+    border-color: brown;
+}
+.btn-add{
+    background-color: black;
+    border-color: black;
+}
+.btn{
+    color: white;
+}
+strong{
+    text-transform: capitalize;
+}
